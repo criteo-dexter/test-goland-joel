@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-goland-joel
+  description: test-goland-joel
+  annotations: 
+    github.com/project-slug: criteo-dexter/test-goland-joel
+    backstage.io/github-actions-id: criteo-dexter/test-goland-joel
+spec:
+  type: service
+  lifecycle: experimental
+  owner: jcalce
